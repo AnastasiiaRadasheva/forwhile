@@ -8,7 +8,17 @@ for i in range(20, 51):
     ref=i/7
     if ref==2 or ref==5 or ref==7:
         print(i)
-
+#10 
+for j in range(10):
+    a1=float(input('esimese arv: '))
+    a2=float(input('teine arv: '))
+    if a1>a2:
+        print('esimene arv on suurem')
+    elif a1<a2:
+        print('teine arv on suurem')
+    else:
+        print('arvud on võrdsed')
+print()
 #17
 adri=2
 summ=0
