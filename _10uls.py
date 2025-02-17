@@ -1,3 +1,13 @@
+#18
+for i in range(20, 51):
+    if i % 3 == 0 and i % 5 != 0:
+        print(i)
+#19
+print('19')
+for i in range(20, 51):
+    ref=i/7
+    if ref==2 or ref==5 or ref==7:
+        print(i)
 
 #17
 adri=2
@@ -33,12 +43,6 @@ for i in range(N):
 print(f"positiv: {positive_count}")
 print(f"negativ: {negative_count}")
 print(f"zero: {zero_count}")
-
-#18
-for i in range(20, 51):
-    print(i)
-
-
 #1
 täisaa=0
 for i in range(3):
